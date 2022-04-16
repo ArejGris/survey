@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+*,*::afte,*::before
+{margin:0;
+padding:0;
+box-sizing: border-box;
+}
+body{
+min-width: 100vh;
+display:grid;
+align-items: center;
+font-family: 'Reem Kufi','Mada','Harmattan', sans-serif;
+justify-content: center;
+place-items: center;
+
+}
+
+.container {align-items: center;justify-content: center;
+}
+.bg-dark{ 
+border:2px solid #08D9D6;
+font-family: 'Mada', sans-serif; padding:.2rem; 
+background-color: rgb(250, 241, 241);
+border-radius: 23%; z-index: 1; color:#08D9D6;
+text-align: center; width: 60%; margin-bottom: 1rem;
+}
+.head{
+    background:  url(../img/open.jpg) repeat center center/cover ;
+display: flex;
+font-family: 'Harmattan', sans-serif; padding:.2rem;margin-bottom: 1rem;
+/* background-color: rgba(0, 0, 0, 0.6); */
+font-size: larger;
+width:100%;
+
+}
+.start{color:#1f8f8d;background-color: rgba(0, 0, 0, .1);
+   text-align: right;
+}
+section{
+    display: block;
+    align-items: center;
+    }
+    p span{color:  #fff;font-style: italic;font-size: x-large;
+    text-align: center;padding-right: 5rem;
+    }
+   
+.form{direction: ltr;
+padding-top: 1rem;
+position: sticky;
+ font-family: 'Harmattan', sans-serif;
+width: 100%;
+border: #08D9D6 3px solid;
+    border-radius:0.25rem;
+    background-color: rgba(211, 211, 250, 0.4); 
+
+    }
+    .form3{padding:9px;background-color: rgba(0, 0, 0, .1);text-align: right;color:#08D9D6;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    }
+    .form3 div{
+    padding-bottom: .3rem;
+    }
+    .header{
+    color:#08D9D6;
+    font-size: larger;
+    text-align: center;
+    font-style: italic;
+    }
+.form-step{
+    padding: .4rem; 
+}
+    text{
+        font-family: 'Almarai', sans-serif;
+        color:rgb(236, 37, 153);
+        font-size: large;
+        margin-left: 14px;
+    }
+    label{
+        font-family: 'Almarai', sans-serif;
+        color:rgb(74, 20, 173);
+        font-size: large;
+}
+.form3 label{
+color:#1f8f8d;
+}
+.q{
+justify-content: right;
+display: flex;
+margin-bottom: 1rem;
+margin-left: auto;
+}
+
+#rate{
+    padding-left: 1rem;
+    margin-left: 1rem;
+    display:flex;
+    justify-content: right;
+    }
+
+.line{
+    display: grid;
+    }
+    button{
+    margin-top: 2px;
+    background-color: #4d2eff;color:#fff;
+    width: 50%;margin:auto;
+    }
+  
+.form2{  align-items: center;place-content: center;
+justify-content: center;
+/* display:none ; */
+}
+.form-step-active{
+display:block;
+animation: animate 0,5s; -webkit-animation: animate 0,5s;
+}
+.input-group{
+padding: .2rem;
+}
+
+/* Button */
+.btn{ display:block;font-size: medium;text-align: center;
+padding:0.55rem; background-color: #094764; 
+text-decoration: none;cursor: pointer; width:12%;
+margin: auto; color:#fff; border-radius:10px ;
+}
+.btn:hover{
+background-color:  #ff2e63;
+}
+.progress-step{ 
+width:2rem; height: 2rem ; 
+background-color: #ccc; border-radius: 50%; margin-left: 6px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.progress-step-active{
+background-color: #ff2e63;
+}
+.box{
+    position: relative;
+    width: 300px;
+    height:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    box-shadow: 0 30px 60px rgba(0,0,0,.2);
+    
+    }
+    .box .percent{
+    position: relative;
+    width: 150px;
+    height:150px;
+    
+    }
+    .box .percent svg{
+    position: relative;
+    width: 150px;
+    height:150px;
+    
+    }
+    
+.box .percent svg circle {
+    width: 150px;
+    height:150px;
+    fill:none;
+    stroke-width: 10;
+    transform: translate(5px,5px);
+    stroke-dasharray:440;
+    stroke-dashoffset: 440;
+    stroke: #000;
+    stroke-linecap: round;
+}
+.box .percent svg circle:nth-child(1){
+stroke-dashoffset: 0;
+stroke: #f3f3f3;
+}
+.box .percent svg circle:nth-child(2){
+    stroke-dashoffset: 120 ;
+    stroke: #03a9f4;
+    }
+.box .percent .number{
+position: absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+display: flex;
+justify-content: center;
+align-items: center;
+color : #999;
+
+}
+.box .percent .number{
+font-size: 50px;
+}
+.box .text{
+padding: 10px 0 0;
+color:#999;
+font-weight: 700;
+letter-spacing: 1px;
+}
+#result:not(:empty)::before{
+content:"90/";
+}

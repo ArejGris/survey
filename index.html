@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questionaire</title>
+    <link rel="stylesheet" href="./css/style.css">
+<script src="./javascript/script.js" defer></script>
+
+<script src="./javascript/jquery-3.6.0.min.js" defer></script>
+</head>
+<body>
+    <nav class="bg-dark" > <h2>الطالبة فاطمة عيسى كلية التربية جامعة حماه</h2></nav>
+   <div class="head">
+   <form   class="form3" id="form3">
+       <label>الاسم</label><input id="name"name="name"type="text">
+       <label>العمر</label><input name="age"type="number">
+        <label style="text-align:right">الجنس</label>
+       <div id="type">
+       <input type="radio" name="type" value="1">ذكر
+       <input type="radio" name="type" value="2">أنثى
+       </div>
+    <label>عدد سنوات الخبرة بالانترنت</label>   <input type="number">
+       <button class="btn" type="button" id="submit"  style="width: 50%;">send</button>
+       </form>
+   <div class="start">
+   <p>   زميلتي /زميلي الطالب/ة الجامعي/ة المحترم/ة <br>
+   تفوم الباحثة بإعداد بحث استكمالاً للحصول على إجازة في كلية التربية /قسم معلم صف/جامعة حماه بعنوان<br>
+   <span>مدى توافر كفاءات التعليم الإلكتروني و معوقاتها و أساليب تنميتها </span><br></p>
+   <div id="d2"> <p>
+   من وجهة نظر طلاب السنة الرابعة <br>
+   ولتحقيق الهدف من هذا البحث أعدت الباحثة استبانة تهدف إلى جمع بيانات <br>
+   حول دور التعليم الالكتروني في تطور البحث 
+   العلمي في الجامعة و سبل الاستفادة منها<br>
+   ولذلك أرجو التكرم من قبلكم بملء الاستبانة من خلال وضع إشارة الخيار المطابق لرأيكم<br>
+   علماً أن إجابتكم لن تستخدم إلا لغرض البحث العلمي</p>
+</div>
+   </div>
+   </div>
+   <div class="container">
+    </div>
+        <form  class="form">
+        <div class="header">استبانة التعليم الالكتروني</div>
+         
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>أستطيع إنشاء الإيميل</label><div class="progress-step">1</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="name1" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="name1" value="2">
+                    <text>محقق</text><input type="radio"  name="name1" value="3">
+                </div>
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label> Facebook أستطيع إنشاء صفحة </label><div class="progress-step">2</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="name2" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="name2" value="2">
+                    <text>محقق</text><input type="radio"  name="name2" value="3">
+                </div>
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>لديّ مهارة في استخدام الإيميل</label><div class="progress-step">3</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="name3" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="name3" value="2">
+                    <text>محقق</text><input type="radio"  name="name3" value="3">
+                </div>
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>لديّ حساب /بريد الكتروني خاص</label><div class="progress-step">4</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="name4" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="name4" value="2">
+                    <text>محقق</text><input type="radio"  name="name4" value="3">
+                </div>
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>أجيد البحث عبر الانترنت عن المعلومات التربوية</label><div class="progress-step">5</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="name5" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="name5" value="2">
+                    <text>محقق</text><input type="radio"  name="name5" value="3">
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>أمتلك مهارة التعامل مع البريد الإلكتروني</label><div class="progress-step">6</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="name6" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="name6" value="2">
+                    <text>محقق</text><input type="radio"  name="name6" value="3">
+                </div>
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>أستطيع إرسال ملف مرتبط عن طريق البريد</label><div class="progress-step">7</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="name7" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="name7" value="2">
+                    <text>محقق</text><input type="radio"  name="name7" value="3">
+                </div>
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>أتواصل بالصوت و الصورة مع الآخرين عبر الشبكة</label><div class="progress-step">8</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="name8" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="name8" value="2">
+                    <text>محقق</text><input type="radio"  name="name8" value="3">
+                </div>
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label> twitter أجيد استخدامالمواقع الاجتماعية مثل</label><div class="progress-step">9</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="name9" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="name9" value="2">
+                    <text>محقق</text><input type="radio"  name="name9" value="3">
+                </div>
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>أشارك في مجموعات على المواقع الالكترونية التابعة للجامعة</label><div class="progress-step">10</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="name10" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="name10" value="2">
+                    <text>محقق</text><input type="radio"  name="name10" value="3">
+                </div>
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>أنزّل و أحمّل الكتب و البرامج من الانترنت</label><div class="progress-step">11</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="name11" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="name11" value="2">
+                    <text>محقق</text><input type="radio"  name="name11" value="3">
+                </div>
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>أجيد قراءة الكتب و الملفات النصية عن طريق برنامج word</label><div class="progress-step">12</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="name12" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="name12" value="2">
+                    <text>محقق</text><input type="radio"  name="name12" value="3">
+                </div>
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>استخدام برنامجاً لضغط و فك ضغط الملفات التي تم تحميلها من الشبكة</label><div class="progress-step">13</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="name13" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="name13" value="2">
+                    <text>محقق</text><input type="radio"  name="name13" value="3">
+                </div>
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>أمتلك  مهارة البحث عن طريق محركات البحث المختلفة</label><div class="progress-step">14</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="name14" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="name14" value="2">
+                    <text>محقق</text><input type="radio"  name="name14" value="3">
+                </div>
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>أحمّل مقاطع الفيديو التعليمية من المواقع الالكترونية</label><div class="progress-step">15</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="name15" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="name15" value="2">
+                    <text>محقق</text><input type="radio"  name="name15" value="3">
+                </div>
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>أتابع الصفحات التربوية</label><div class="progress-step">16</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="name16" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="name16" value="2">
+                    <text>محقق</text><input type="radio"  name="name16" value="3">
+                </div>
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>يمكنني ملء استبانات أبحاثي عبر البريد الالكتروني</label><div class="progress-step">17</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="name17" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="name17" value="2">
+                    <text>محقق</text><input type="radio"  name="name17" value="3">
+                </div>
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>يمكنني وضع استبانة في مواقع متخصصة لملئها من قبل المواقع</label><div class="progress-step">18</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="name18" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="name18" value="2">
+                    <text>محقق</text><input type="radio"  name="name18" value="3">
+                </div>
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>   youtube أستطيع تشغيل مقاطع الفيديو عن طريق الانترنت</label><div class="progress-step">19</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="name19" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="name19" value="2">
+                    <text>محقق</text><input type="radio"  name="name19" value="3">
+                </div>
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>powerpointأجيد استخدام برنامج العروض التقديمية </label><div class="progress-step">20</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="name20" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="name20" value="2">
+                    <text>محقق</text><input type="radio"  name="name20" value="3">
+                </div>
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>أتواصل مع المواقع التي تناسب أبحاثي في مجال تخصصي الدراسي</label><div class="progress-step">21</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="name21" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="name21" value="2">
+                    <text>محقق</text><input type="radio"  name="name21" value="3">
+                </div>
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>أستطيع التعامل مع الروابط للصور و الملفات المختلفة</label><div class="progress-step">22</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="namet1" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="namet1" value="2">
+                    <text>محقق</text><input type="radio"  name="namet1" value="3">
+                </div>
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>أجيد تفحص و مكافحة الفيروسات و التأكد من إزالتها</label><div class="progress-step">23</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="namet2" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="namet2" value="2">
+                    <text>محقق</text><input type="radio"  name="namet2" value="3">
+                </div>
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>أرى أن هناك قلة بالمكتبات الالكترونية باللغة العربية</label><div class="progress-step">24</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="namet3" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="namet3" value="2">
+                    <text>محقق</text><input type="radio"  name="namet3" value="3">
+                </div>
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>لديّ صعوبة في تحديد صحّة المعلومات عن طريق التعليم الالكتروني قبل اعتمادها</label><div class="progress-step">25</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="namet4" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="namet4" value="2">
+                    <text>محقق</text><input type="radio"  name="namet4" value="3">
+                </div>
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>أرى أن المؤسسات المتخصصة نادراً ما تصمم مواقع للبحث العلمي على الانترنت</label><div class="progress-step">26</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="namet5" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="namet5" value="2">
+                    <text>محقق</text><input type="radio"  name="namet5" value="3">
+                </div>
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>أرى أن هناك ندرة لوجود فهرسة للمكتبات العربية و المحلية على الانترنت</label><div class="progress-step">27</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="namet6" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="namet6" value="2">
+                    <text>محقق</text><input type="radio"  name="namet6" value="3">
+                </div>
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>التكلفة المادية للاشتراك في مواقع البحث مرتفعة بالنسبة لي</label><div class="progress-step">28</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="namet7" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="namet7" value="2">
+                    <text>محقق</text><input type="radio"  name="namet7" value="3">
+                </div>
+            </div>
+        </div>
+        
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>أرى أن هناك غياب للرابط الشبكي بين الجامعات و المكتبات العربية و المحلية (السورية)</label><div class="progress-step">29</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="namet" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="namet" value="2">
+                    <text>محقق</text><input type="radio"  name="namet" value="3">
+                </div> 
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">  
+               <div class="q"> <label>أتفحص الخلل في اتصال الشبكة و أصلح البسيط منها</label><div class="progress-step">30</div> </div>
+                <div id="rate">
+                    <text>غير محقق</text><input type="radio"  name="namet" value="1">
+                    <text> محقق إلى حد ما</text><input type="radio"  name="namet" value="2">
+                    <text>محقق</text><input type="radio"  name="namet" value="3">
+                </div>
+            </div>
+        </div>
+       <button class="btn" type="button" id="response"> أرسل</button> 
+        </form>
+      
+        <div class="list">
+         
+             <form id="form2">
+               <div class="form-step">
+              <div class="box ">
+                  <h1 style="text-align:center;color: rgb(18, 18, 143);">: نسبة موافقتك هي</h1>
+                  <div class="percent">
+                  <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  </svg>
+                  <div class="number" name="result" id="result" >
+                  </div>
+                  </div>
+          </div>
+      </form>
+      </div>
+    </div>
+
+   <script>
+   $(document).ready(function(){
+   var form=$('#form3');
+   $('#submit').click(function(){
+   $ajax({
+   url: form.att("action"),
+   type:'post',
+   data:$("#form3 input").serialize(),
+   success:function(data){
+   console.log(data);
+   }
+   
+   });
+   }); 
+   });
+    </script>
+</body>
+</html>
